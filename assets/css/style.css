@@ -33,14 +33,14 @@
     padding: 2em;
 }
 
-.menu .active{
-    color: aqua;
-}
+
 
 .menu a:hover{
-    background-color: aquamarine;
+    background-color:rgb(0, 229, 167);
     color: #000000;
     transition: ease-in .4s;
+    border: none;
+    border-radius: 20px;
 
 }
 
@@ -62,12 +62,12 @@ h1{
 }
 
 span{
-    color: aquamarine;
+    color:rgb(0, 229, 167);
 }
 
 .download-cv{
     padding: 10px 20px;
-    background-color: aquamarine;
+    background-color:rgb(0, 229, 167);
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -82,7 +82,7 @@ span{
 
 .main img{
     width: 350px;
-    border: 7px solid aquamarine;
+    border: 7px solid rgb(0, 229, 167);
     height: 520px;
 }
 
@@ -91,6 +91,7 @@ span{
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
+    background-color:#000000;
 }
 
 .about img{
@@ -105,19 +106,20 @@ span{
 
 .about-info h2{
     font-size: 2em;
-    color:  #000000;
+    color:#fff;
 }
 
 .divider{
     height: 4px;
     width: 60px;
-    background-color: aquamarine;
+    background-color:rgb(0, 229, 167);
     margin-top: 10px;
     margin-bottom: 1em;
 }
 
 .about p{
     margin-bottom: 1em;
+    color:#fff
 }
 
 .container-contact{
@@ -127,8 +129,13 @@ span{
 }
 
 .contact-headings h2{
-    font-size: 3em;
-    
+    font-size: 2em;
+    background-color:#000000;
+    color:#fff;
+}
+
+.contact-form{
+    color:#fff;
 }
 
 .form{
@@ -160,7 +167,7 @@ span{
     margin: 1em;
     border: none;
     text-transform: uppercase;
-    background-color: aquamarine;
+    background-color:rgb(0, 229, 167);
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 1px 3px 11px -5px aquamarine;
