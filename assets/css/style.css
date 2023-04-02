@@ -81,7 +81,7 @@ span{
 }
 
 .main img{
-    width: 350px;
+    width: 450px;
     border: 7px solid rgb(0, 229, 167);
     height: 520px;
 }
@@ -97,6 +97,7 @@ span{
 .about img{
     width: 100%;
     grid-column: 1/5;
+    border: 7px solid rgb(0, 229, 167);
 }
 
 .about-info{
